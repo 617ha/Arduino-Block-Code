@@ -8,7 +8,6 @@ String command = "";
 void setup() {
   myServo.attach(9); // signal wire on pin 9
   Serial.begin(115200);
-  Serial.println("Type 'left', 'right', or 'stop' to control the servo.");
   pinMode(ledPin, OUTPUT);
 }
 
@@ -62,4 +61,5 @@ void loop() {
     }
   }
 }
+
 
