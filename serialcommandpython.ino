@@ -58,7 +58,8 @@ void loop() {
   }
 
     else {
-      Serial.println("Unknown command. Use 'left', 'right', or 'mid'.");
+      Serial.println("Unknown command");
     }
   }
 }
+
